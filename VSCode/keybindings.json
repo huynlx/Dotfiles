@@ -1,0 +1,183 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "shift+cmd+a",
+    "command": "editor.emmet.action.balanceOut"
+  },
+  {
+    "key": "cmd+0",
+    "command": "workbench.action.openLastEditorInGroup"
+  },
+  {
+    "key": "cmd+1",
+    "command": "workbench.action.openEditorAtIndex1"
+  },
+  {
+    "key": "cmd+2",
+    "command": "workbench.action.openEditorAtIndex2"
+  },
+  {
+    "key": "cmd+3",
+    "command": "workbench.action.openEditorAtIndex3"
+  },
+  {
+    "key": "cmd+4",
+    "command": "workbench.action.openEditorAtIndex4"
+  },
+  {
+    "key": "cmd+5",
+    "command": "workbench.action.openEditorAtIndex5"
+  },
+  {
+    "key": "cmd+6",
+    "command": "workbench.action.openEditorAtIndex6"
+  },
+  {
+    "key": "cmd+7",
+    "command": "workbench.action.openEditorAtIndex7"
+  },
+  {
+    "key": "cmd+8",
+    "command": "workbench.action.openEditorAtIndex8"
+  },
+  {
+    "key": "cmd+9",
+    "command": "workbench.action.openEditorAtIndex9"
+  },
+  {
+    "key": "ctrl+1",
+    "command": "workbench.action.focusFirstEditorGroup"
+  },
+  {
+    "key": "ctrl+2",
+    "command": "workbench.action.focusSecondEditorGroup"
+  },
+  {
+    "key": "ctrl+3",
+    "command": "workbench.action.focusThirdEditorGroup"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "workbench.action.files.saveFiles"
+  },
+  {
+    "key": "ctrl+-",
+    "command": "workbench.action.navigateBack",
+    "when": "canNavigateBack"
+  },
+  {
+    "key": "ctrl+-",
+    "command": "-workbench.action.navigateBack",
+    "when": "canNavigateBack"
+  },
+  {
+    "key": "alt+f",
+    "command": "workbench.action.toggleFullScreen",
+    "when": "!isIOS"
+  },
+  {
+    "key": "ctrl+cmd+f",
+    "command": "-workbench.action.toggleFullScreen",
+    "when": "!isIOS"
+  },
+  {
+    "key": "ctrl+cmd+v",
+    "command": "toggleVim"
+  },
+  {
+    "key": "escape",
+    "command": "extension.vim_escape",
+    "when": "editorTextFocus && vim.active && !inDebugRepl"
+  },
+  {
+    "key": "escape",
+    "command": "-extension.vim_escape",
+    "when": "editorTextFocus && vim.active && !inDebugRepl"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "commands.run",
+    "args": [
+      "filesExplorer.openFilePreserveFocus",
+      "workbench.action.focusActiveEditorGroup"
+    ],
+    "when": "explorerViewletFocus && explorerViewletVisible"
+  },
+  // Select option in modal
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.quickOpenSelectNext",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.quickOpenSelectPrevious",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  // !select option in modal
+  {
+    "key": "alt+j",
+    "command": "workbench.action.togglePanel"
+  },
+  {
+    "key": "cmd+l",
+    "command": "cursorWordEndRight",
+    "when": "textInputFocus && !accessibilityModeEnabled"
+  },
+  {
+    "key": "cmd+h",
+    "command": "cursorWordEndLeft",
+    "when": "textInputFocus && !accessibilityModeEnabled"
+  },
+  {
+    "key": "cmd+shift+k",
+    "command": "cursorLineEnd",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+shift+j",
+    "command": "cursorLineStart",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+j",
+    "command": "cursorDown",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+k",
+    "command": "cursorUp",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+l",
+    "command": "cursorRight",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+h",
+    "command": "cursorLeft",
+    "when": "editorTextFocus"
+  },
+  // Scrollings
+  {
+    "key": "ctrl+alt+j",
+    "command": "scrollPageDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+alt+k",
+    "command": "scrollPageUp",
+    "when": "textInputFocus"
+  },
+]

@@ -1,0 +1,10 @@
+nnoremap H gT
+nnoremap L gt 
+vnoremap <c-j> <ESC>
+vnoremap <c-k> <ESC>
+inoremap <c-j> <ESC>
+inoremap <c-k> <ESC>
+nnoremap x "_x
+nnoremap d "_d
+nnoremap D "_D
+vnoremap d "_d

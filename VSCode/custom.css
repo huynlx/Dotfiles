@@ -1,0 +1,27 @@
+.split-view-view > .sidebar > .title > .title-label > h2 {
+  font-family: "MesloLGS NF";
+  font-weight: bold;
+  font-size: 14px;
+  /* font-style: italic; */
+  color: #0e98f0 !important;
+  text-align: center;
+}
+
+.split-view-view > .sidebar > .content > .viewlet {
+  font-family: "MesloLGS NF";
+  font-weight: normal;
+}
+
+.tab.active {
+  border-bottom: 2px solid #0e98f0 !important;
+}
+
+.monaco-editor .zone-widget .zone-widget-container.reference-zone-widget {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border: 2px solid dodgerblue !important;
+}
+
+.monaco-workbench .part.editor > .content .editor-group-container.empty .editor-group-letterpress {
+  background-image: url("vscode-file://vscode-app/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/browser/parts/editor/media/git.svg");
+}
